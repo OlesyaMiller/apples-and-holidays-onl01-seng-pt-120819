@@ -65,7 +65,10 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   
-  puts holiday_hash
+  holiday_hash.keys.capitalize 
+  
+  
+  print holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
