@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_names = []
   holiday_hash.each do |key, value|
-    value.each do |i|
+    value.each do |key1, value1|
       binding.pry 
     end
   end
