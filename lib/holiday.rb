@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   
-  holiday_hash.keys.capitalize! 
+  holiday_hash.keys.join(",").capitalize! 
   holiday_hash.values.to_s.capitalize!
   pp holiday_hash
   
