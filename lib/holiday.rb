@@ -1,4 +1,5 @@
 require 'pry'
+requre 'pp'
 
 def second_supply_for_fourth_of_july(holiday_hash)
   # given that holiday_hash looks like this:
@@ -67,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.keys.capitalize! 
   holiday_hash.values.capitalize!
-  print holiday_hash
+  pp holiday_hash
   
 end
 
