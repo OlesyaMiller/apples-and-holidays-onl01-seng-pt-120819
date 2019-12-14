@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.keys.capitalize! 
-  holiday_hash.values.capitalize!
+  holiday_hash.values.to_s.capitalize!
   pp holiday_hash
   
 end
