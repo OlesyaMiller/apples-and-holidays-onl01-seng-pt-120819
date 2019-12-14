@@ -67,8 +67,9 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.keys.capitalize! 
   holiday_hash.values.capitalize!
-  binding.pry 
   print holiday_hash
+    binding.pry 
+
 end
 
 def all_holidays_with_bbq(holiday_hash)
