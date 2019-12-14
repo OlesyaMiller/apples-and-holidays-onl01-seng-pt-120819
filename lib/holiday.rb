@@ -59,13 +59,13 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
  
- holiday_hash.each do |k1, v1|
-   puts "#{k1.to_s.capitalize}:"
-   
-   v1.each do |k2, v2|
-     puts "  #{k2.to_s.split("_").map { |x| x.capitalize }.join(" ") }: #{v2.join(", ")}" 
+   holiday_hash.each do |k1, v1|
+     puts "#{k1.to_s.capitalize}:"
+     
+     v1.each do |k2, v2|
+       puts "  #{k2.to_s.split("_").map { |x| x.capitalize }.join(" ") }: #{v2.join(", ")}" 
+     end
    end
- end
 end
 
 def all_holidays_with_bbq(holiday_hash)
